@@ -1,0 +1,57 @@
+{
+  "app": {
+    "name": "Blockchain Analyzer",
+    "version": "1.0.0",
+    "environment": "production",
+    "port": 8080
+  },
+  "blockchain": {
+    "networks": {
+      "solana": {
+        "rpcUrl": "https://api.mainnet-beta.solana.com",
+        "explorerUrl": "https://explorer.solana.com"
+      },
+      "ethereum": {
+        "rpcUrl": "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID",
+        "explorerUrl": "https://etherscan.io"
+      },
+      "bsc": {
+        "rpcUrl": "https://bsc-dataseed.binance.org",
+        "explorerUrl": "https://bscscan.com"
+      }
+    },
+    "defaultNetwork": "solana"
+  },
+  "api": {
+    "coingecko": {
+      "baseUrl": "https://api.coingecko.com/api/v3",
+      "rateLimit": 100
+    },
+    "dexscreener": {
+      "baseUrl": "https://api.dexscreener.io/latest/dex",
+      "rateLimit": 60
+    },
+    "binance": {
+      "baseUrl": "https://api.binance.com/api/v3",
+      "rateLimit": 120
+    }
+  },
+  "security": {
+    "rateLimit": {
+      "windowMs": 600000,
+      "maxRequests": 500
+    },
+    "cors": {
+      "allowedOrigins": ["https://yourproductiondomain.com"],
+      "allowedMethods": ["GET", "POST", "PUT", "DELETE"],
+      "allowedHeaders": ["Content-Type", "Authorization"]
+    }
+  },
+  "ai": {
+    "openai": {
+      "apiKey": "YOUR_OPENAI_API_KEY",
+      "model": "gpt-4",
+      "maxTokens": 2000
+    }
+  }
+}
