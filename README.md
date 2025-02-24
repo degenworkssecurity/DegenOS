@@ -21,6 +21,8 @@ DegenWorks OS is built to handle complex blockchain data workflows with the foll
 
 GitHub: [DegenWorks Repository](https://github.com/degenworkssecurity/DegenOS)  
 Website: [DegenWorks.com](https://www.degenworks.com)  
+X: [x.com/DegenWorksOS](https://x.com/DegenWorksOS)  
+
 
 ---
 
