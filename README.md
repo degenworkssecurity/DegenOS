@@ -20,9 +20,9 @@ DegenWorks OS is built to handle complex blockchain data workflows with the foll
 - **Security-Focused:** Includes rate-limiting, authentication, and anomaly detection to safeguard your application.  
 
 GitHub: [DegenWorks Repository](https://github.com/degenworkssecurity/DegenOS)  
+Docs: [DegenWorks Docs](https://degenworks.gitbook.io/degenworks-os) 
 Website: [DegenWorks.com](https://www.degenworks.com)  
 X: [x.com/DegenWorksOS](https://x.com/DegenWorksOS)  
-
 
 ---
 
