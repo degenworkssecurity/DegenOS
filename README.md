@@ -88,7 +88,7 @@ X: [x.com/DegenWorksOS](https://x.com/DegenWorksOS)
    ```
 
 ## **Project Structure**
-	```bash
+	
 	project-root/
 	├── src/
 	│   ├── core/
@@ -147,7 +147,7 @@ X: [x.com/DegenWorksOS](https://x.com/DegenWorksOS)
 	├── package.json                   # Dependencies and scripts
 	├── README.md                      # Project overview and documentation
 	└── LICENSE                        # License file
-	```
+	
 	
 ## Usage
 
